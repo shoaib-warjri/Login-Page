@@ -1,0 +1,26 @@
+[
+    {
+        "userName" : "Shoaib",
+        "passWord" : "shoaib@123"
+    },
+    {
+        "userName" : "Peeps",
+        "passWord" : "peeps@123"
+    },
+    {
+        "userName" : "Steve",
+        "passWord" : "steve@123"
+    },
+    {
+        "userName" : "Kelvin",
+        "passWord" : "kelvin@123"
+    },
+    {
+        "userName" : "Shawn",
+        "passWord" : "shawn@123"
+    },
+    {
+        "userName" : "Jason",
+        "passWord" : "jason@123"
+    }
+]

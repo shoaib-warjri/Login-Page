@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" conten  t="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Login Page</title>
+</head>
+<body>
+  <div class="login-page" >
+    <header class="login-header"><h1>User Login</h1></header>
+    <form action="/login" class="login-form" method="post"></form>
+      <div class="form-group">
+        <label for="username">Username <i class="fa-solid fa-user fa-sm"></i> : </label>
+        <input type="text"  placeholder="Username" id="username" name="username"   required>
+      </div>
+      <br>
+      <br>
+      <div class="form-group">
+        <label for="password">Password  <i class="fa-solid fa-lock fa-sm"></i> : </label>
+        <input type="password" name="password" placeholder="Password" autocomplete="current-password" required="" id="password">
+        <i class="far fa-eye" id="togglePassword" draggable="true"></i>
+      </div>
+      <br>
+      <br>
+      <div class="form-group" id="login-button">
+    
+          <button class="button" id="submit" type="submit" value="Login">Login</button>
+        <br><br>
+        <input type="checkbox" id="rememberMe"> <label for="rememberMe" class="criteria" >Remember Me</label>        <a href="./index2.html" class="criteria">Forget Password</a>
+      </div>
+      
+    <footer>
+      
+    </footer>
+  
+       
+      </div>
+<script src="./index2.js"></script>
+</body>
+</html>
